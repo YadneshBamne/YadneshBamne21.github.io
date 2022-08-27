@@ -100,6 +100,7 @@ section{
 .home{
 	height: 100vh;
 	width: 100%;
+	background-image: url(/background.jpg);
 	background-size: cover;
 	background-position: center;
 	position: relative;
@@ -150,4 +151,11 @@ span{
 	right: 6px;
 	cursor: pointer;
 }
+header.sticky{
+	padding: 12px 15%;
+	background: var(--main-color);
+}
 
+.sticky .navbar a::after{
+	background: var(--text-color);
+}
