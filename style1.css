@@ -34,7 +34,7 @@ header{
 	align-items: center;
 	justify-content: space-between;
 	background: transparent;
-	padding: 25px 15%;
+	padding: 25px 10%;
 	transition-duration: .3s;
 }
 .logo{
@@ -100,7 +100,7 @@ section{
 .home{
 	height: 100vh;
 	width: 100%;
-	background-image: url(/background.jpg);
+	background-image: url(/Vidyalankar.jpg);
 	background-size: cover;
 	background-position: center;
 	position: relative;
@@ -152,10 +152,75 @@ span{
 	cursor: pointer;
 }
 header.sticky{
-	padding: 12px 15%;
+	padding: 12px 5%;
 	background: var(--main-color);
 }
 
 .sticky .navbar a::after{
 	background: var(--text-color);
+	
+}
+.sticky .h-btn{
+	background: var(--text-color);
+	color: #000;
+}
+.about{
+	background: var(--secound bg-color);
+	display: grid;
+	grid-template-columns: repeat(2, 2fr);
+	grid-gap: 2rem;
+	align-items: center;
+}
+.about us-img{
+	max-width: 100%;
+	width: 500px;
+	height: auto;
+	border-radius:10px;
+}
+.about-text h2{
+	margin-bottom: 20px;
+	font-size: var(--h2-font);
+}
+.about-text h5{
+	margin-bottom: 25px;
+	font-size: 30px;
+	letter-spacing: 1px;
+}
+.about-text p{
+	font-size: var(--p-font);
+	color: var(--secound-color);
+	margin-bottom: 45px;
+	line-height: 28px;
+	letter-spacing: 2px;
+	max-width: 590px;
+}
+
+.btn{
+
+}
+.btn:hover{
+
+}
+.services{
+	background: var(--bg-color);
+}
+.center{
+	text-align: center;
+}
+.center h2{
+	margin-bottom: 15px;
+	font-size: var(--h2-font);
+}
+.center p{
+	line-height: 28px;
+	letter-spacing: 1px;
+	color: var(--secound-color);
+	font-size: var(--p-font);
+}
+.services-content{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(370px, auto));
+	grid-gap: 2rem;
+	align-items: center;
+	margin-top: 4.5rem;
 }
